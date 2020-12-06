@@ -1,0 +1,168 @@
+/* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* insert styles here */
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    /* insert styles here */
+}
+ 
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    /* insert styles here */
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    /* insert styles here */
+}
+ 
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* insert styles here */
+}
+ 
+/* (768x1024) iPad 1 & 2, Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* insert styles here */
+}
+ 
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    /* insert styles here */
+}
+ 
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    .cust-banner-img {
+   
+    top: -29px;
+    left: 468px;
+    right: 40px;
+    
+}
+.the-font {
+  
+    padding-bottom: 47px !important;
+}
+.comment {
+  
+    right: -46px;
+    
+}
+.navbar-nav .nav-link{
+    font-size: 13px;
+}
+}
+ 
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    /* insert styles here */
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+    /* insert styles here */
+}
+ 
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    /* insert styles here */
+}
+ 
+/* (1600x900) HD+ Display */
+@media  screen and (max-width: 1600px) {
+    /* insert styles here */
+}
+
+/* (768) Normal */
+@media  screen and (max-width: 768px) {
+    .comment {
+        right: 0;
+        position: inherit;
+        display: inline-flex;
+        margin: 0 auto;
+    }
+    .cust-banner-img {
+        position: inherit;
+        top: 0;
+        left: 0;
+    }
+    .the-font {
+        padding-left: 12px;
+       
+    }
+    .banner-hear {
+        
+        margin-top: 0px;
+        
+        background: #ffff;
+    }
+    .m-pt {
+        padding-top: 15px;
+    }
+    .product2-text {
+        background: #913494;
+    width: 100%;
+    position: inherit;
+    margin-bottom: 20px;
+    }
+    .cust-padd {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .product2-text p {
+        color: #ffffff;
+    }
+    .product2-text a {
+        color: #ffffff;
+       
+    }
+    .owl-theme .owl-controls .owl-page span {
+        width: 23px !important;
+        height: 23px!important;
+        
+    }
+    .subscribers {
+        width: 100%;
+        margin: 30px auto;
+        margin-bottom: 0;
+    }
+    .footer-newsletter {
+        border-left: 1px solid #dedede;
+        margin-bottom: 0px;
+        padding-left: 40px;
+    }
+   
+}
