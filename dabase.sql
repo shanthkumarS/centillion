@@ -1,19 +1,19 @@
 CREATE DATABASE `honeycomb` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-CREATE TABLE `cart` (
+CREATE TABLE `honeycomb`.`cart` (
   `cart_id` int(11) NOT NULL AUTO_INCREMENT,
   `item_id` varchar(140) NOT NULL,
   `user_id` varchar(150) NOT NULL,
   PRIMARY KEY (`cart_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE `item` (
+CREATE TABLE `honeycomb`.`item` (
   `item_id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(140) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`item_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE `user` (
+CREATE TABLE `honeycomb`.`user` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(40) NOT NULL,
   `email` varchar(150) NOT NULL,
